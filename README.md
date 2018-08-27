@@ -1,11 +1,13 @@
 # YouTubePlaylistCleaner
-# Bookmarked javascript that will remove 'watched' entries from a YouTube playlist.  
-# Watched entries are at least 95% viewed/progress.  
-# Delay of 100 ms is to allow YouTube site time to process deletions.
-#
-# Last updated (2018-08-27)
-# For use with YouTube playlist, such as:  https://www.youtube.com/playlist?list=XXXXXXXXXXXX&disable_polymer=true
-# Create a bookmark with:
+
+* Bookmarked javascript that will remove 'watched' entries from a YouTube playlist.  
+  * Watched entries are at least 95% viewed/progress.  
+  * Delay of 100 ms is to allow YouTube site time to process deletions.
+
+* Last updated (2018-08-27)
+* For use with YouTube playlist, such as:  https://www.youtube.com/playlist?list=XXXXXXXXXXXX&disable_polymer=true
+
+## Create a bookmark with:
 
 javascript: ( 
 function() {     
