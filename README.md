@@ -28,3 +28,6 @@ function() {
 	, 100);   
 } 
 )();
+
+## In a single line, the bookmark is:
+javascript: ( function() { var watched = 95; var el = document.getElementsByClassName('resume-playback-progress-bar'); var i = el.length - 1; var interval = setInterval(function() { if (i >= 0) { if (parseInt(el[i].style.width,10) >= watched) { el[i].parentElement.parentElement.parentElement.getElementsByClassName('pl-video-edit-remove')[0].click(); } i--; } else { clearInterval(interval);   } } , 100);   } )();
